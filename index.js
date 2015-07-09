@@ -1,3 +1,3 @@
-require("angular");
-require("./dist/angular-media-player");
+require("./src/directive");
+require("./src/helpers");
 module.exports = "mediaPlayer";

@@ -1,3 +1,4 @@
+var angular = require("angular");
 angular.module('mediaPlayer.helpers', [])
 .factory('mp.throttle', ['$timeout', function ($timeout) {
   return function (delay, no_trailing, callback, debounce_mode) {

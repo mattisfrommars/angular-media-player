@@ -1,3 +1,4 @@
+var angular = require("angular");
 /**
  * MDN references for hackers:
  * ===========================
